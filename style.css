@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+
+.posts {
+	margin: 2%;
+
+}
+
+.navbar {
+	display: inline;
+  background: black;
+  color: white;
+  height: 5%;
+	float: left;
+	width: 100%;
+	margin-top: 0px;
+	padding: 5%;
+}
+
+nav {
+	display: inline;
+	float: right;
+}
+
+nav a {
+	display: inline;
+  width: 120px;
+  text-transform: uppercase;
+  color: white;
+  background-color: grey;
+  text-align: center;
+	border-radius: 5px;
+	padding: 6px;
+}
+
+.big {
+	display: inline-block;
+	margin-top: 5%;
+}
+
+.little {
+	float: left;
+	margin: 3px;
+	padding: 4px;
+	border: 2px;
+	border-color: grey;
+}
+
+.top {
+	float: left;
+	height: 352px;
+	width: 352px;
+	background: grey;
+	margin-left: 10%;
+	margin-right: 50px;
+	margin-top: 5%;
+	padding: 10px;
+}
+
+.secondary-content {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.small-post {
+	float: left;
+}
+
+.left {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.center {
+	display: inline-block;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.small-post {
+	margin-top: 5%;
+	padding: 10px;
+	color: grey;
+	height: 300px;
+	width: 300px;
+}
+
+.right {
+	float: right;
+	height: 300px;
+	width: 300px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 12px;
+	color: white;
+	margin-top: 5px;
+}
+
+h3 {
+	font-size: 30px;
+	font-style: italic;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	color: orange;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+p {
+	float: left;
+	margin: 5px;
+}
+
+footer {
+	display: inline;
+  background: black;
+  color: white;
+  height: 60px;
+	float: left;
+	width: 100%;
+	padding: 20px;
+}
+
+.phone {
+	height: 15px;
+	width: 15px;
+	background: white;
+	color: black;
+}
